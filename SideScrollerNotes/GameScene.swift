@@ -12,7 +12,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var ball: SKSpriteNode!
     var scoreLabel: SKLabelNode!
-    
+    var hello = ""
     var cam = SKCameraNode()
     var score = 0
     
